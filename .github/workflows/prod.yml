@@ -57,7 +57,7 @@ jobs:
 
       - name: "[Package Manager] Update Homebrew Formulae Database"
         run: |
-          brew update --preinstall --quiet
+          brew update
           brew config
 
       - name: "[Dependencies] Provision GNU Core Utilities"
